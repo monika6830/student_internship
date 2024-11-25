@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body > div.container-lg.px-3.my-5.markdown-body > h1:nth-child(1) {
+  display: none;
+}
+
+div.footer {
+  display: none;
+}
